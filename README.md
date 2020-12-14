@@ -1,8 +1,9 @@
 # 工具箱说明
 
 产品线一线人员执行GatherInfo脚本
+```
 # bash GatherInfo.sh
-
+```
 脚本执行完成后，会在/tmp目录下生成一个GatherInfo.tar.gz文件，回传该文件给应急人员。
 
 应急人员根据各个命令执行内容进行分析，并完善“应急响应Checklist”内容。
