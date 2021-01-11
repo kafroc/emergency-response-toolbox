@@ -1,3 +1,5 @@
+# update 2021.01.11
+
 #!/bin/bash
 
 function initial(){
@@ -61,7 +63,7 @@ function other_info(){
 	ls -alt /dev/shm > /tmp/GatherInfo/dev_shm.log 2>&1
 	echo $LD_PRELOAD > /tmp/GatherInfo/LD_PRELOAD.log 2>&1
 	cat /etc/ld.so.preload > /tmp/GatherInfo/etc_ld.so.preload.log 2>&1
-	s -alt /root/.ssh > /tmp/GatherInfo/ls_alt_root_.ssh.log 2>&1
+	ls -alt /root/.ssh > /tmp/GatherInfo/ls_alt_root_.ssh.log 2>&1
 	cat /root/.ssh/* > /tmp/GatherInfo/cat_root_.ssh.log 2>&1
 	
 	for user in /home/*
